@@ -9,7 +9,7 @@ On the puppetserver run:
 ```
 rm -rf /etc/puppetlabs/code
 git clone https://github.com/joshcooper/hiera_demo /etc/puppetlabs/code
-chmod -R puppet:puppet /etc/puppetlabs/code
+chown -R puppet:puppet /etc/puppetlabs/code
 ```
 
 ### Step 1
